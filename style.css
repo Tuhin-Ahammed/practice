@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Hedingsection {
+  /* background-image: url("/Img/Bk\ Img.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  /* background: url("/Img/Bk\ Img.svg"); */
+
+  height: 100vh;
+  background-size: cover;
+  background-image: url("/Img/Bk\ Img.svg"),
+    linear-gradient(to right bottom, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.4)),
+    linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    linear-gradient(to right bottom, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.4));
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navcontainer li a {
+  color: white;
+  text-decoration: none;
+}
+.navcontainer {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.navparent {
+  display: flex;
+  gap: 20px;
+}
+.menubar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.Aboutsection {
+  text-align: center;
+  margin: 50px;
+}
+.Aboutsection h1 {
+  color: red;
+  font-weight: bold;
+  font-size: 40px;
+}
+.aboutcontaint {
+  display: flex;
+  gap: 50px;
+  margin: 0 100px;
+}
+.aboutcontaint p {
+  font-size: 20px;
+}
+
+.what-we-serve {
+  display: flex;
+  margin: 50px 100px;
+  justify-content: space-between;
+}
+
+.what-we-serve .service {
+  display: flex;
+  gap: 10px;
+}
+.left-side-containt {
+  display: flex;
+  gap: 30px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.latter-containt p {
+  margin-top: 5px;
+}
+.righ-side {
+  width: 40%;
+}
+.righ-side h1 {
+  font-size: 40px;
+  color: red;
+  margin: bottom;
+  font-weight: bold;
+}
+.right-side-picture {
+  position: relative;
+  margin: 50px 0;
+}
+.right-side-picture img {
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .menubar {
+    flex-direction: column;
+  }
+  .navcontainer {
+    flex-wrap: wrap;
+  }
+
+  .aboutcontaint {
+    flex-direction: column;
+  }
+
+  .what-we-serve {
+    flex-direction: column;
+  }
+
+  .righ-side {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
