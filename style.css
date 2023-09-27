@@ -3,8 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .Hedingsection {
-  /* background-image: url("/Img/Bk\ Img.svg");
+  /* background-image: url("Img/Bk\ Img.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
@@ -12,108 +13,287 @@
 
   height: 100vh;
   background-size: cover;
-  background-image: url("img/Bk\ Img.svg"),
+  background-image: url("Img/Bk\ Img.svg"),
     linear-gradient(to right bottom, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.4)),
     linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
     linear-gradient(to right bottom, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.4));
 
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
 }
+
 .navcontainer li a {
   color: white;
   text-decoration: none;
 }
+
 .navcontainer {
   display: flex;
   list-style: none;
   gap: 20px;
 }
+
 .navparent {
   display: flex;
   gap: 20px;
 }
+
 .menubar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 100px;
 }
+
 .Aboutsection {
   text-align: center;
   margin: 50px;
 }
+
 .Aboutsection h1 {
   color: red;
   font-weight: bold;
   font-size: 40px;
 }
+
 .aboutcontaint {
   display: flex;
   gap: 50px;
   margin: 0 100px;
 }
+
 .aboutcontaint p {
   font-size: 20px;
 }
 
 .what-we-serve {
   display: flex;
-  margin: 50px 100px;
+  margin: 50px 120px;
   justify-content: space-between;
 }
 
 .what-we-serve .service {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
+
 .left-side-containt {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
+
 .left-side {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .latter-containt p {
   margin-top: 5px;
 }
+
+.left-side-containt-ict {
+  display: flex;
+  gap: 20px;
+}
+
+.payment-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Trade-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.trad-icon img {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.legal-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.skills-icon img {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.financ-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .righ-side {
   width: 40%;
+  margin-left: 700px;
+  margin-top: -450px;
 }
+
 .righ-side h1 {
   font-size: 40px;
   color: red;
   margin: bottom;
   font-weight: bold;
 }
+
 .right-side-picture {
   position: relative;
   margin: 50px 0;
 }
+
 .right-side-picture img {
   width: 80%;
+}
+
+/* Brand we serve start */
+.brand-we-serve-container {
+  text-align: center;
+  margin: 200px 120px 50px;
+  justify-content: space-between;
+}
+
+.brand-we-serve-all-icon {
+  display: flex;
+  margin-left: 10px;
+}
+.brand-we-serve-containt h1 {
+  color: red;
+}
+.barnd-we-serve-heading p {
+  margin-top: 5px;
+}
+.logo-containt {
+  display: flex;
+}
+.connecion-icon img {
+  margin-right: 100px;
+}
+.logo-containt-left-side {
+  margin-top: 70px;
+}
+.logo2 img {
+  margin-top: -40px;
+}
+.logo3 img {
+  margin-top: -40px;
+}
+.logo-containt-right-side {
+  margin-top: 115px;
+  margin-right: 139px;
+}
+.logo4 img {
+  margin-top: -40px;
+}
+.logo5 img {
+  margin-top: -40px;
+}
+.logo6 img {
+  margin-top: -40px;
+}
+.customer-testimonials-container {
+  padding: 50px 120px;
+  text-align: center;
+}
+.customer-testimonials-container h1 {
+  color: #d80000;
+  font-size: 48px;
+  font-family: Public Sans;
+  font-weight: 700;
+  line-height: 64px;
+}
+.customer-terminal-all {
+  display: flex;
+  margin-top: 75px;
+}
+.customer-terminal-all p {
+  text-align: left;
+  margin-right: 50px;
+}
+.customer-terminal-all img {
+  text-align: left;
+}
+.termina-1-containt {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.termina-2-containt {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.termina-3-containt {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.dowenload-containr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 107px;
+}
+.contuct-us-container {
+  padding: 54px;
+  align-items: center;
+  justify-content: center;
+}
+.contuct-us-heding {
+  text-align: center;
+}
+.contuct-us-heding p {
+  width: 33%;
+  margin: 0 auto;
+}
+.right-side div {
+  margin-top: 20px;
+}
+.contuct-us-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+}
+.right-side input {
+  height: 40px;
+  width: 318px;
+}
+.mesege-Button button {
+  background-color: red;
+  text-align: center;
+  border-radius: 25px;
+  color: white;
+}
+.background-img-container img {
+  opacity: 50%;
+}
+.left-side img {
+  height: 10px;
+  width: 10px;
+}
+body {
+  background: #e7e7e7;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
   .menubar {
     flex-direction: column;
-  }
-  .navcontainer {
-    flex-wrap: wrap;
-  }
-
-  .aboutcontaint {
-    flex-direction: column;
-  }
-
-  .what-we-serve {
-    flex-direction: column;
-  }
-
-  .righ-side {
-    width: 100%;
-    margin-top: 20px;
   }
 }
