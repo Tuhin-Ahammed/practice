@@ -45,7 +45,22 @@
   justify-content: space-between;
   padding: 10px 100px;
 }
-
+.Firest-Leap {
+  margin-top: 120px;
+  margin-left: 200px;
+}
+.Firest-Leap p {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #e7e7e7;
+}
+.Firest-Leap button {
+  background-color: transparent;
+  color: #e7e7e7;
+  border: 1.5px solid white;
+  padding: 8px;
+  border-radius: 5px;
+}
 .Aboutsection {
   text-align: center;
   margin: 50px;
@@ -163,7 +178,7 @@
 /* Brand we serve start */
 .brand-we-serve-container {
   text-align: center;
-  margin: 200px 120px 50px;
+  padding: 200px 120px 50px;
   justify-content: space-between;
 }
 
@@ -194,7 +209,6 @@
 }
 .logo-containt-right-side {
   margin-top: 115px;
-  margin-right: 139px;
 }
 .logo4 img {
   margin-top: -40px;
@@ -271,24 +285,62 @@
   gap: 40px;
 }
 .right-side input {
-  height: 40px;
+  height: 30px;
   width: 318px;
 }
+
 .mesege-Button button {
   background-color: red;
   text-align: center;
   border-radius: 25px;
   color: white;
 }
-.background-img-container img {
-  opacity: 50%;
+.background-img-container {
+  background-size: cover;
+  background-image: url("/img/Footer-img.svg"),
+    linear-gradient(
+      to right bottom,
+      rgba(255, 0, 0, 0.562),
+      rgba(255, 0, 0, 0.4)
+    ),
+    linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    linear-gradient(to right bottom, rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.4));
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 150px;
 }
-.left-side img {
-  height: 10px;
-  width: 10px;
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-link li {
+  list-style: none;
+}
+.footer-link ul li a {
+  color: #e7e7e7;
+  text-decoration: none;
+}
+.footer-link ul li button {
+  margin-top: 10px;
+  border-radius: 100px;
+  padding: 8px 26px;
+  background-color: black;
+  color: #e7e7e7;
+}
+.footer-link h3 {
+  color: #e7e7e7;
+  margin-bottom: 15px;
+}
+.allright-reserve {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #e7e7e7;
 }
 body {
-  background: #e7e7e7;
+  background: white;
   margin: 0 auto;
 }
 
